@@ -9,3 +9,10 @@ Please see [simple_prompt.ipynb](simple_prompt.ipynb)
 
 ## Molecular Search with RAG from QM9
 Please see [rag_mol_prompt.ipynb](rag_mol_prompt.ipynb)
+
+## Molecular Search with RAG from QM9 and Rules
+Please see [rag_mol_rule_prompt.ipynb](rag_mol_rule_prompt.ipynb)
+
+## Molecular Search with RAG from QM9, Rules, and Auto-CoT prompts
+Please see [rag_mol_rule_auto_cot_prompt.ipynb](rag_mol_rule_auto_cot_prompt.ipynb)
+
