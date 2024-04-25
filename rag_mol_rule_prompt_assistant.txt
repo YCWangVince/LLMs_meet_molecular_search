@@ -1,0 +1,52 @@
+I referred to a large molecular dataset and I found some molecules and their properties that might qualify:
+{QM9_REFERENCE}
+mu: Dipole moment, this scalar represents the overall polarity of a molecule; A higher dipole moment shows greater polarity, influencing molecular interactions and solubility (Polar solvents (like water) are effective at dissolving polar substances).
+    alpha: Isotropic polarizability, this property measures how easily a molecule’s electron cloud can be distorted by an external electric field, similar to mu. Higher alpha can show more loosely held electrons, impacting reactivity and optical properties (The ease of distortion increases the molecule's ability to participate in interactions).
+    homo: HOMO represents the energy of the highest filled electron orbital under normal conditions, showing the molecule’s ability to donate electrons.
+    lumo: LUMO is the energy of the lowest orbital that can accept electrons.
+    gap: Gap is the difference between the HOMO and LUMO. Smaller gaps often correlate with higher reactivity and better conductivity.
+    U0, U, H, G: All measure energies within molecules. Higher  energy also means less stability and a higher tendency to change or react to achieve lower energy states
+    Hydroxyl: Hydroxyl groups (-OH) are found in alcohols and phenols and are characterized by a polar bond that can engage in hydrogen bonding, making compounds more soluble in water and generally more reactive.
+    Carboxyl: Carboxylic (acids) (-COOH) contain both a carbonyl and a hydroxyl group attached to the same carbon, making them acidic. Often used in the manufacture of soaps and detergents (fatty acids).
+    Ester: Esters (R-COO-R) are derived from carboxylic acids and alcohols. They are characterized by a sweet smell and are used in many biochemical reactions, including hydrolysis and transesterification. Often used in flavorings and fragrances.
+    Amine: Amines (-NH2/-NH-) have C or H attached to the nitrogen. They can form hydrogen bonds and act as nucleophiles and bases in reactions. Used in dye manufacture and drugs.
+    Amide: Amides (-CON-) have a carbonyl group bonded to a nitrogen. They are typically very stable due to resonance stabilization, making them less reactive. Often used in plastics and fibers like nylon.
+    Ether: Ethers (R-O-R) have an oxygen bonded to two alkyl or aryl groups. They are relatively non-reactive and are used mainly as solvents. Used in laboratories.
+    Alkene: Alkenes (R-C=C-R) contain a carbon-carbon double bond, which is reactive towards addition reactions, including hydrogenation and halogenation Used in the production of polymers and plastics through polymerization reactions.
+    Alkyne: Alkynes (R-C**≡**C-R) have a carbon-carbon triple bond, which is even more reactive than double bonds in alkenes, undergoing similar addition reactions. Important in the synthesis of pharmaceuticals and the vulcanization of rubber.
+    Azo: Azo (R-N=N-R) compounds contain a nitrogen-nitrogen double bond. They are often used as dyes and can participate in electron transfer reactions. Used extensively in dyeing fabrics.
+    Nitro: Nitro (R-NO2) groups are strong electron-withdrawing groups, making the compound more acidic and reactive towards reduction. Used in the manufacture of explosives like TNT and in pharmaceuticals.
+    Nitrile: Nitriles (R-C**≡**N) feature a carbon triple-bonded to nitrogen. They are polar and can be hydrolyzed to carboxylic acids or reduced to amines. Used in the production of synthetic rubber, plastics, and acrylic fibers.
+    Benzene: An aromatic ring (C6H6) with alternating double bonds, benzenes is stable due to its pi system. Often used as a precursor to make a variety of chemicals including plastics, resins, and synthetic fibers.
+    Fluoro: Fluoro (R-F) compounds contain a carbon-fluorine bond, which is very strong making it less reactive. Fluorocarbons have been used extensively as refrigerants and propellants due to their low toxicity, stability, and suitable thermodynamic properties.
+    Anhydride: Anhydrides (R-C(=O)-C(=O)-R) are derivatives of two carboxylic acids and are more reactive than esters, commonly used in acylation reactions. Used in the synthesis of various drugs
+
+
+Based on my chemical knowledge I will use the following rules to make molecule recommendations：
+Density: 
+1. Hydroxyl, Carboxyl, Ester, Amide, Azo, Nitro, Nitrile, Fluoro, Anhydride: These functional groups contribute to the overall molecular structure and mass. For instance, functional groups like carboxyl and nitro add oxygen and nitrogen to the compound, which can influence the mass and size of the molecule, affecting the density.
+2. Alkene, Alkyne, Benzene: The presence of multiple bonds or aromatic rings can impact the compactness and arrangement of molecules in a solid or liquid state, which can influence density.
+
+Melting and Boiling Points:
+1. mu (Dipole moment): A higher dipole moment indicates greater polarity, which can increase the strength of intermolecular forces (like dipole-dipole interactions), thus potentially raising the melting and boiling points.
+2. alpha (Isotropic polarizability): This property affects how easily a molecule's electron cloud can be distorted, influencing molecular interactions. Molecules with higher polarizability can have stronger London dispersion forces, which might lead to higher melting and boiling points.
+3. Hydroxyl, Carboxyl, Amine, Amide: These groups are capable of forming hydrogen bonds, a strong type of dipole-dipole interaction. Hydrogen bonding significantly raises the melting and boiling points of compounds, as more energy is required to overcome these interactions.
+4. Ester, Ether: These functional groups influence solubility and intermolecular interactions but to a lesser extent in terms of hydrogen bonding compared to groups like hydroxyl or amide. Esters and ethers typically have moderate melting and boiling points depending on the molecular structure.
+5. Alkene, Alkyne, Benzene: The presence of double or triple bonds or aromatic rings can affect the structure and packing of molecules, which influences their thermal stability and hence their melting and boiling points.
+
+Solubility:
+The solubility of a compound in various solvents can be significantly affected by certain molecular properties and functional groups mentioned in the document. Here’s a breakdown of those properties:
+1. mu (Dipole moment): Molecules with higher dipole moments tend to be more polar and can dissolve better in polar solvents like water due to their ability to form dipole-dipole interactions.
+2. Hydroxyl, Carboxyl, Amine, Amide: These groups can engage in hydrogen bonding with solvents, which is crucial for solubility in polar solvents. Compounds containing these groups are generally more soluble in water and other polar solvents.
+3. Ester, Ether: These groups affect solubility through their polarity and ability to engage in dipole interactions. Esters and ethers tend to be soluble in less polar solvents, aligning with their moderate polarity.
+4. Nitro, Nitrile: These groups contain highly electronegative atoms (oxygen in nitro and nitrogen in nitrile), contributing to their polarity and enhancing solubility in polar solvents.
+5. Alkene, Alkyne: Compounds with these groups are generally less polar and are more soluble in non-polar solvents, due to their lack of strong polar functional groups.
+
+The properties U0, U, H, and G mentioned in the document relate to different thermodynamic parameters of a molecule, each providing insights into various internal properties of compounds. Here's an explanation of each and what they reveal about a compound:
+1.U0 (Internal Energy at 0 K): This value represents the total internal energy of a molecule at absolute zero temperature (0 Kelvin). It encompasses all the kinetic and potential energies stored within the chemical bonds and molecular structure at this baseline temperature. U0 gives insights into the stability and energy content of the compound under standard conditions.
+2. U (Internal Energy): Similar to U0, U represents the total internal energy of a system but at any temperature, not just 0 K. It includes all forms of energy within the system, such as translational, rotational, vibrational energies, and electronic energies of the molecules. The internal energy helps in understanding how energy changes during chemical reactions and physical transformations.
+3. H (Enthalpy): Enthalpy is a measure of the total heat content of a system and is closely related to internal energy. However, unlike internal energy, enthalpy includes the energy required to make space for the molecule in a system (i.e., the pressure-volume work). Enthalpy changes are crucial for understanding heat exchange in chemical reactions (like exothermic and endothermic reactions) and phase changes (such as melting and boiling).
+4. G (Gibbs Free Energy): Gibbs Free Energy is perhaps the most critical thermodynamic function for chemical reactions. It indicates the spontaneity of a reaction at constant temperature and pressure. A negative ΔG (change in Gibbs Free Energy) signifies that a reaction is exergonic and can occur spontaneously, while a positive ΔG indicates a non-spontaneous reaction. Gibbs Free Energy combines enthalpy, entropy (measure of disorder or randomness), and temperature to predict the direction of chemical processes and equilibrium conditions.
+Together, these properties provide a comprehensive view of a molecule's energy landscape and its potential chemical behavior under various conditions. They are fundamental in fields like chemical engineering, physical chemistry, and thermodynamics, where understanding the energy changes associated with molecular transformations is crucial.
+
+Here are the top 10 recommended SMILES:
