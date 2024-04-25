@@ -4,6 +4,9 @@ This is a TAMU CSCE670 project: LLMs Meet Molecular Search
 ## Demo
 Please see [demo.ipynb](demo.ipynb)
 
+## Experiment Results
+![Result_figure](results.png)
+
 ## Naive Molecular Search
 Please see [simple_prompt.ipynb](simple_prompt.ipynb)
 
