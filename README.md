@@ -1,6 +1,9 @@
 # LLMs Meet Molecular Search
-This is a TAMU CSCE670 project: LLMs Meet Molecular Search.
-We built an moclecular 
+This is a TAMU CSCE670 project: LLMs Meet Molecular Search. We aim to asking LLMs to recommend molecules (via SMILES) with property queries.
+
+## Test Set
+
+We randomly picked 50 molecular SMILES in QM9 dataset, and then referred to https://pubchem.ncbi.nlm.nih.gov for property labelling. The [test.csv](test set) contains the SMILES, density, melting point, boiling point, solubility in water, vapor pressure, and functional group of the labelled molecules.
 
 ## Demo
 Please see [demo.ipynb](demo.ipynb)
@@ -38,10 +41,11 @@ The input query includes properties of a molecular, and the output is recommende
 10: O=CC#C https://pubchem.ncbi.nlm.nih.gov/compound/12222
 
 
-
-
 ## Experiment Results
+We record the average running time and the top10 accuracy (in the prompt, we ask models to return 10 recommended molecules). GPT3.5 with RAG and additional rules outperform other method.
+
 ![Result_figure](results.png)
+
 
 ## Naive Molecular Search
 Please see [simple_prompt.ipynb](simple_prompt.ipynb)
