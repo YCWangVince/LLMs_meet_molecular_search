@@ -1,0 +1,4 @@
+I referred to a large molecular dataset and I found some molecules and their properties that might qualify:
+{QM9_REFERENCE}
+
+Based on my chemical knowledge and the references, here are the top 10 recommended SMILES:

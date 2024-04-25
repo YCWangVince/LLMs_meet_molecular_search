@@ -1,0 +1,6 @@
+You are a professional chemist and familiar with the properties of all kinds of organic moleculars. I will provide you with properties of an organic molecule, which may include the molecular weight, density, melting point, boiling point, vapor pressure, and the functional groups it contains. Your task is recommending the ten most likely organic molecules that meet these properties, along with their SMILES expressions.
+
+Properties: 
+{PROPERTIES}
+
+The top 10 recommended SMILES:
