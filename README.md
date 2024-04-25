@@ -7,7 +7,7 @@ We randomly picked 50 molecular SMILES in QM9 dataset, and then referred to http
 
 ## Demo
 Please see [demo.ipynb](demo.ipynb)
-The input query includes properties of a molecular, and the output is recommended SMILES expressions, and a reference webset.
+The input query includes properties of a molecular, and the output is recommended SMILES expressions, and a reference website.
 
 ### Example:
 
@@ -42,7 +42,7 @@ The input query includes properties of a molecular, and the output is recommende
 
 
 ## Experiment Results
-We record the average running time and the top10 accuracy (in the prompt, we ask models to return 10 recommended molecules). GPT3.5 with RAG and additional rules outperform other method.
+We record the average running time and the top10 accuracy (in the prompt, we ask models to return 10 recommended molecules). GPT3.5 with RAG and additional rules outperform other method (0.36 top10 accuracy).
 
 ![Result_figure](results.png)
 
