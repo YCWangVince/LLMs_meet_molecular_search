@@ -3,7 +3,7 @@ This is a TAMU CSCE670 project: LLMs Meet Molecular Search. We aim to asking LLM
 
 ## Test Set
 
-We randomly picked 50 molecular SMILES in QM9 dataset, and then referred to https://pubchem.ncbi.nlm.nih.gov for property labelling. The [testset.csv](test set) contains the SMILES, density, melting point, boiling point, solubility in water, vapor pressure, and functional group of the labelled molecules.
+We randomly picked 50 molecular SMILES in QM9 dataset, and then referred to https://pubchem.ncbi.nlm.nih.gov for property labelling. The [test set](testset.csv) contains the SMILES, density, melting point, boiling point, solubility in water, vapor pressure, and functional group of the labelled molecules.
 
 ## Demo
 Please see [demo.ipynb](demo.ipynb)
